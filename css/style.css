@@ -1,0 +1,183 @@
+/*Cores padrão:
+              #E8FFFF
+              #A6F6F1
+              #41AEA9
+              #213E3B
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #E8FFFF;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+/*LOGO ANIMADO GITHUB*/
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+/*-------------------------------HEADER-----------------------------------*/
+.top-container {
+  background-color: #E8FFFF;
+  position: relative;
+  height: 100%;
+  padding-top: 120px;
+
+}
+
+.top-container h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin: 50px auto 0px auto;
+  font-size: 5rem;
+  color: #41AEA9;
+  line-height: 1  ;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #41AEA9;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 0;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #213E3B;
+  font-size: 1.5rem;
+}
+
+.cloud-bottom {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+
+}
+
+.cloud-top {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+
+}
+
+/*-------------------------------MAIN-----------------------------------*/
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.middle-container hr {
+  width: 15%;
+  margin: 2% auto 2% auto;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.image1-skill {
+  width: 25%;
+  border-radius: 50%;
+  background-color: orange;
+  float: left;
+  margin-right: 30px;
+}
+
+.image2-skill {
+  width: 25%;
+  border-radius: 50%;
+  background-color: #41AEA9;
+  float: right;
+  margin-left: 30px;
+}
+
+/*-------------------------------CONTACT-----------------------------------*/
+
+.contact-me h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #41AEA9;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.contact-me h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #41AEA9;
+  font-size: 1.5rem;
+}
+
+.contact-me p {
+  margin: 2% 5% 2% 2%;
+}
+
+.contact-me .btn {
+  background-color: #41AEA9;
+  color: #E8FFFF;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: #c0c0c0 3px 3px 5px;
+
+}
+
+/*-------------------------------FOOTER-----------------------------------*/
+.bottom-container {
+  margin-top: 2%;
+  background-color: #41AEA9;
+  color: #213E3B;
+  padding-top: 5%;
+  padding-left: 4.5%;
+}
+
+.bottom-container .footer-link {
+  color: #213E3B;
+  margin-right: 50px;
+}
+
+
+.bottom-container p {
+  margin-bottom: 0;
+  padding-top: 2%;
+  color: #ffff
+}
